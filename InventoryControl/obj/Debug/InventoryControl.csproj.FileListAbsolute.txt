@@ -1,0 +1,11 @@
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\InventoryControl.exe.config
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\InventoryControl.exe
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\InventoryControl.pdb
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.csproj.AssemblyReference.cache
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.LoginScreen.resources
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.Properties.Resources.resources
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.csproj.GenerateResource.cache
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.csproj.CoreCompileInputs.cache
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.exe
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.pdb
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.ManageUsers.resources
