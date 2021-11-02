@@ -177,6 +177,7 @@ namespace InventoryControl
             this.button5.TabIndex = 24;
             this.button5.Text = "Customers";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -187,6 +188,7 @@ namespace InventoryControl
             this.button6.TabIndex = 25;
             this.button6.Text = "Users";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -197,6 +199,7 @@ namespace InventoryControl
             this.button7.TabIndex = 26;
             this.button7.Text = "Inventory";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Orders
             // 
@@ -217,6 +220,7 @@ namespace InventoryControl
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "Orders";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orders";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

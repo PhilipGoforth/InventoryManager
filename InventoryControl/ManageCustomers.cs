@@ -35,5 +35,12 @@ namespace InventoryControl
             userPage.Show();
             this.Hide();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Orders userPage = new Orders();
+            userPage.Show();
+            this.Hide();
+        }
     }
 }

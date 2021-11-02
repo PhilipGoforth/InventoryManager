@@ -53,7 +53,7 @@ namespace InventoryControl
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(44, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(199, 75);
             this.pictureBox1.TabIndex = 1;
@@ -188,8 +188,9 @@ namespace InventoryControl
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(123, 34);
             this.button7.TabIndex = 21;
-            this.button7.Text = "Logout";
+            this.button7.Text = "Orders";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // ManageCustomers
             // 
