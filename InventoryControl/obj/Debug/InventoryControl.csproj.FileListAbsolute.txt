@@ -9,3 +9,8 @@ C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.exe
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.pdb
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.ManageUsers.resources
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\Dapper.dll
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\Dapper.xml
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.InventoryControl.resources
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.ManageCustomers.resources
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.csproj.CopyComplete

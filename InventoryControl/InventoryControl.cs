@@ -21,5 +21,24 @@ namespace InventoryControl
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ManageCustomers userPage = new ManageCustomers();
+            userPage.Show();
+            this.Hide();
+        }
+
+        private void InventoryControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ManageUsers userPage = new ManageUsers();
+            userPage.Show();
+            this.Hide();
+        }
     }
 }

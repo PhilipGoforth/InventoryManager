@@ -39,5 +39,12 @@ namespace InventoryControl
                 PasswordBox.UseSystemPasswordChar = false;
             }
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            ManageCustomers userPage = new ManageCustomers();
+            userPage.Show();
+            this.Hide();
+        }
     }
 }

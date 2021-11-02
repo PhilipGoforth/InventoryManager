@@ -32,17 +32,17 @@ namespace InventoryControl
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginScreen));
             this.Login = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ShowPasswordCheck = new System.Windows.Forms.CheckBox();
+            this.Clear = new System.Windows.Forms.Label();
+            this.loginButton = new System.Windows.Forms.Button();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
+            this.UserNameBox = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.UserNameBox = new System.Windows.Forms.TextBox();
-            this.PasswordBox = new System.Windows.Forms.TextBox();
-            this.loginButton = new System.Windows.Forms.Button();
-            this.Clear = new System.Windows.Forms.Label();
-            this.ShowPasswordCheck = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Login.SuspendLayout();
-            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Login
@@ -61,55 +61,14 @@ namespace InventoryControl
             this.Login.TabIndex = 0;
             this.Login.Paint += new System.Windows.Forms.PaintEventHandler(this.Login_Paint);
             // 
-            // contextMenuStrip1
+            // pictureBox1
             // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripTextBox1});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 29);
-            // 
-            // toolStripTextBox1
-            // 
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
-            // 
-            // UserNameBox
-            // 
-            this.UserNameBox.Location = new System.Drawing.Point(81, 172);
-            this.UserNameBox.Name = "UserNameBox";
-            this.UserNameBox.Size = new System.Drawing.Size(155, 20);
-            this.UserNameBox.TabIndex = 3;
-            this.UserNameBox.Text = "User Name";
-            // 
-            // PasswordBox
-            // 
-            this.PasswordBox.Location = new System.Drawing.Point(81, 217);
-            this.PasswordBox.Name = "PasswordBox";
-            this.PasswordBox.Size = new System.Drawing.Size(155, 20);
-            this.PasswordBox.TabIndex = 4;
-            this.PasswordBox.Text = "Password";
-            this.PasswordBox.UseSystemPasswordChar = true;
-            // 
-            // loginButton
-            // 
-            this.loginButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginButton.Location = new System.Drawing.Point(81, 256);
-            this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(155, 40);
-            this.loginButton.TabIndex = 5;
-            this.loginButton.Text = "Login";
-            this.loginButton.UseVisualStyleBackColor = true;
-            // 
-            // Clear
-            // 
-            this.Clear.AutoSize = true;
-            this.Clear.Location = new System.Drawing.Point(88, 303);
-            this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(31, 13);
-            this.Clear.TabIndex = 6;
-            this.Clear.Text = "Clear";
-            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(315, 138);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // ShowPasswordCheck
             // 
@@ -122,14 +81,56 @@ namespace InventoryControl
             this.ShowPasswordCheck.UseVisualStyleBackColor = true;
             this.ShowPasswordCheck.CheckedChanged += new System.EventHandler(this.ShowPasswordCheck_CheckedChanged);
             // 
-            // pictureBox1
+            // Clear
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 138);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.Clear.AutoSize = true;
+            this.Clear.Location = new System.Drawing.Point(88, 303);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(31, 13);
+            this.Clear.TabIndex = 6;
+            this.Clear.Text = "Clear";
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            // 
+            // loginButton
+            // 
+            this.loginButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginButton.Location = new System.Drawing.Point(81, 256);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(155, 40);
+            this.loginButton.TabIndex = 5;
+            this.loginButton.Text = "Login";
+            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
+            // 
+            // PasswordBox
+            // 
+            this.PasswordBox.Location = new System.Drawing.Point(81, 217);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(155, 20);
+            this.PasswordBox.TabIndex = 4;
+            this.PasswordBox.Text = "Password";
+            this.PasswordBox.UseSystemPasswordChar = true;
+            // 
+            // UserNameBox
+            // 
+            this.UserNameBox.Location = new System.Drawing.Point(81, 172);
+            this.UserNameBox.Name = "UserNameBox";
+            this.UserNameBox.Size = new System.Drawing.Size(155, 20);
+            this.UserNameBox.TabIndex = 3;
+            this.UserNameBox.Text = "User Name";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripTextBox1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 29);
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
             // 
             // LoginScreen
             // 
@@ -146,9 +147,9 @@ namespace InventoryControl
             this.Text = "LoginScreen";
             this.Login.ResumeLayout(false);
             this.Login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
