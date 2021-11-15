@@ -52,5 +52,12 @@ namespace InventoryControl
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            QRGenerator userPage = new QRGenerator();
+            userPage.Show();
+            this.Hide();
+        }
     }
 }

@@ -25,3 +25,5 @@ C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\bin\Debug\QRCoder.dll
+C:\Users\Ego\repos\InventoryControll\InventoryControl\InventoryControl\obj\Debug\InventoryControl.QRGenerator.resources
