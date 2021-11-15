@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,25 @@ namespace InventoryControl
             InventoryControl userPage = new InventoryControl();
             userPage.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PrintDialog pd = new PrintDialog();
+            PrintDocument doc = new PrintDocument();
+            doc.PrintPage += myPrintPage;
+            pd.Document = doc;
+            if(pd.ShowDialog() == DialogResult.OK)
+            {
+                doc.Print();
+            }            
+        }
+        private void myPrintPage(object sender, PrintPageEventArgs e)
+        {
+            Bitmap bm = new Bitmap(pic.Width, pic.Height);
+            pic.DrawToBitmap(bm, new Rectangle(0, 0, pic.Width, pic.Height));
+            e.Graphics.DrawImage(bm, 0, 0);
+            bm.Dispose();
         }
     }
 }
